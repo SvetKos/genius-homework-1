@@ -185,6 +185,12 @@ ul {
 }
 
 /* about_beauty_zone */
+.container_about {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
 .about-title {
   margin-bottom: 40px;
 }
@@ -203,6 +209,12 @@ ul {
 }
 
 /* why_us */
+.container_why {
+  width: 100%;
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
 .why-title {
   margin-bottom: 48px;
 }
@@ -210,16 +222,41 @@ ul {
   color: var(--color-primary-dark);
   line-height: 1.3;
 }
+.why_us_icons {
+  text-align: center;
+}
+
+/* our_procedures */
+.container_our_procedures {
+  width: 100%;
+  max-width: 1216px;
+  margin: 0 auto;
+}
+.our-title {
+  margin-bottom: 48px;
+}
+
 .procedures_description {
   color: var(--color-primary-light);
   font-size: 22px;
   text-align: center;
 }
-.why_us_icons {
-  text-align: center;
-}
 
 /* contacts_title */
+.container_contacts_title {
+  width: 100%;
+  max-width: 1059px;
+  margin: 0 auto;
+}
+
+.contact_find_title {
+  margin-bottom: 48px;
+}
+
+.record_title {
+  margin-bottom: 32px;
+}
+
 .button_agree {
   color: var(--color-primary-dark3);
   font-size: 12px;
@@ -239,6 +276,14 @@ ul {
 }
 
 /* contacts_footer */
+.container_adress {
+  width: 100%;
+  max-width: 1239px;
+  margin: 0 auto;
+}
+.footer_address {
+  margin-bottom: 16px;
+}
 .address-linc {
   color: var(--color-primary-light);
   text-decoration: none;
