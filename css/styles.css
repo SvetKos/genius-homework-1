@@ -218,6 +218,27 @@ ul {
 }
 
 /* Advantages section */
+.title-text-container {
+  width: 100%;
+  max-width: 709px;
+}
+
+.title-filling {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-photo-container {
+  display: flex;
+  /* flex-direction: column; */
+  flex-grow: 1;
+}
+/* .photo:first-child {
+  justify-content: start;
+  display: flex;
+} */
+
 .section-title {
   color: var(--color-brand-dark);
   font-family: 'Play', sans-serif;
@@ -257,6 +278,9 @@ ul {
 }
 
 /* why_us */
+.flexbox-why {
+  display: flex;
+}
 .container_why {
   width: 100%;
   max-width: 1060px;
