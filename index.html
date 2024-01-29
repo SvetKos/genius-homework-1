@@ -231,40 +231,48 @@
           <h2 class="contact_find_title section-title">
             Як нас <span class="brand">знайти</span>
           </h2>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.476296259425!2d30.770364692463435!3d50.50670401009983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d97de411b701%3A0x48116b28f7f00d94!2z0LLRg9C70LjRhtGPINCi0LDRgNCw0YHQsCDQqNC10LLRh9C10L3QutCwLCA1LCDQkdGA0L7QstCw0YDQuCwg0JrQuNGX0LLRgdGM0LrQsCDQvtCx0LsuLCAwNzQwMA!5e0!3m2!1suk!2sua!4v1703691070210!5m2!1suk!2sua"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-          <div class="our_found">
-            <p class="record_title">
-              Запишіться
-              <span class="brand">безкоштовно</span> <br />та отримайте
-              подарунок
-            </p>
-            <!-- </div> -->
-            <button class="button_our" type="button">
-              Ваше ім'я та прізвище
-            </button>
-            <button class="button_our" type="button">Ваш номер телефону</button>
-            <!-- <p></p> -->
-            <button class="button_our" type="button">
-              Ваша електронна пошта
-            </button>
-            <!-- <p></p> -->
-            <button class="button" type="button">Записатись безкоштовно</button>
-            <div class="button_agree">
-              <p>
-                Натискаючи на кнопку я погоджуюсь
-                <!-- <br /> -->
-                <span class="agree_underline"
-                  >з політикою конфіденційності</span
-                >
+          <div class="flexbox-contacts">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.476296259425!2d30.770364692463435!3d50.50670401009983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d97de411b701%3A0x48116b28f7f00d94!2z0LLRg9C70LjRhtGPINCi0LDRgNCw0YHQsCDQqNC10LLRh9C10L3QutCwLCA1LCDQkdGA0L7QstCw0YDQuCwg0JrQuNGX0LLRgdGM0LrQsCDQvtCx0LsuLCAwNzQwMA!5e0!3m2!1suk!2sua!4v1703691070210!5m2!1suk!2sua"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div class="our_found flexbox-found">
+              <p class="record_title">
+                Запишіться
+                <span class="brand">безкоштовно</span> <br />та отримайте
+                подарунок
               </p>
+              <!-- </div> -->
+              <button class="button_our" type="button">
+                Ваше ім'я та прізвище
+              </button>
+              <button class="button_our" type="button">
+                Ваш номер телефону
+              </button>
+              <!-- <p></p> -->
+              <button class="button_our" type="button">
+                Ваша електронна пошта
+              </button>
+              <!-- <p></p> -->
+              <div class="button-and-agree">
+                <button class="button" type="button">
+                  Записатись безкоштовно
+                </button>
+                <div class="button_agree">
+                  <p>
+                    Натискаючи на кнопку я погоджуюсь
+                    <br />
+                    <span class="agree_underline"
+                      >з політикою конфіденційності</span
+                    >
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -273,103 +281,120 @@
 
     <footer>
       <div class="container_adress">
-        <div class="address_footer">
-          <nav>
-            <a href="./index.html">
-              <img src="./Images/logo.svg" alt="Логотип beauty zone" />
-            </a>
-            <ul>
-              <li>
-                <a class="footer_address address-linc" href="#about_beauty_zone"
-                  >Про нас</a
-                >
-              </li>
-              <!-- <li><p></p></li> -->
-              <li>
-                <a class="footer_address address-linc" href="#why_us"
-                  >Чому ми</a
-                >
-              </li>
-              <!-- <li><p></p></li> -->
-              <li>
-                <a class="footer_address address-linc" href="#our_procedures"
-                  >Наші процедури</a
-                >
-              </li>
-              <!-- <li><p></p></li> -->
-              <li>
-                <a class="footer_address address-linc" href="#contacts_title"
-                  >Контакти</a
-                >
-              </li>
-              <!-- <li><p></p></li> -->
-            </ul>
-          </nav>
+        <div class="address_footer contact-flexbox">
+          <div class="contact-box-we">
+            <nav>
+              <a href="./index.html">
+                <img src="./Images/logo.svg" alt="Логотип beauty zone" />
+              </a>
+
+              <ul>
+                <li>
+                  <a
+                    class="footer_address address-linc"
+                    href="#about_beauty_zone"
+                    >Про нас</a
+                  >
+                </li>
+                <!-- <li><p></p></li> -->
+                <li>
+                  <a class="footer_address address-linc" href="#why_us"
+                    >Чому ми</a
+                  >
+                </li>
+                <!-- <li><p></p></li> -->
+                <li>
+                  <a class="footer_address address-linc" href="#our_procedures"
+                    >Наші процедури</a
+                  >
+                </li>
+                <!-- <li><p></p></li> -->
+                <li>
+                  <a class="footer_address address-linc" href="#contacts_title"
+                    >Контакти</a
+                  >
+                </li>
+                <!-- <li><p></p></li> -->
+              </ul>
+            </nav>
+          </div>
           <address>
-            <ul>
-              <li>
-                <a class="footer_address address-linc" href="tel:+380960000007"
-                  >+ 38 (096) 000 00 07</a
-                >
-                <!-- <p></p> -->
-              </li>
-              <li>
-                <a
-                  class="footer_address address-linc"
-                  href="mailto:beautyzone@gmail.com"
-                  >beautyzone@gmail.com</a
-                >
-                <!-- <p></p> -->
-              </li>
-              <li>
-                <a
-                  class="footer_address address-linc"
-                  href="https://maps.app.goo.gl/gwHaQRJoSWcbw4nz6"
-                  target="_blank"
-                  >Україна, м. Київ, вул. Тараса Шевченка 5</a
-                >
-                <!-- <p></p> -->
-              </li>
-              <li>
-                <a href="#">
-                  <!-- telefon icon DELL -->
-                  <!-- <a href="./index.html" -->
-                  ><img
-                    src="./Images/telephone-receiver_icon-icons.com_56033wait.svg"
-                    alt="tel"
-                  />
-                  <!-- </a> -->
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <!-- facebook icon DELL -->
-                  <!-- <a href="./index.html" -->
-                  ><img src="./Images/uit_facebook-fwait.svg" alt="tel" />
-                  <!-- </a> -->
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <!-- instagram icon DELL s-->
-                  <!-- <a href="./index.html" -->
-                  ><img
-                    src="./Images/ph_instagram-logo-lightwait.svg"
-                    alt="tel"
-                  />
-                  <!-- </a> -->
-                </a>
-              </li>
-              <li>
-                <a class="footer_address address-linc" href="#" target="_blank"
-                  >Політика конфіденційності</a
-                >
-              </li>
-              <!-- <li><p></p></li> -->
-              <li>
-                <p class="address_copyright">&copy; 2022 Дані захищені</p>
-              </li>
-            </ul>
+            <div class="contact-box-address">
+              <ul>
+                <li>
+                  <a
+                    class="footer_address address-linc"
+                    href="tel:+380960000007"
+                    >+ 38 (096) 000 00 07</a
+                  >
+                  <!-- <p></p> -->
+                </li>
+                <li>
+                  <a
+                    class="footer_address address-linc"
+                    href="mailto:beautyzone@gmail.com"
+                    >beautyzone@gmail.com</a
+                  >
+                  <!-- <p></p> -->
+                </li>
+                <li>
+                  <a
+                    class="footer_address address-linc"
+                    href="https://maps.app.goo.gl/gwHaQRJoSWcbw4nz6"
+                    target="_blank"
+                    >Україна, м. Київ, вул. Тараса Шевченка 5</a
+                  >
+                  <!-- <p></p> -->
+                </li>
+                <div class="contact-box-icon">
+                  <li>
+                    <a href="#">
+                      <!-- telefon icon DELL -->
+                      <!-- <a href="./index.html" -->
+                      ><img
+                        src="./Images/telephone-receiver_icon-icons.com_56033wait.svg"
+                        alt="tel"
+                      />
+                      <!-- </a> -->
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <!-- facebook icon DELL -->
+                      <!-- <a href="./index.html" -->
+                      ><img src="./Images/uit_facebook-fwait.svg" alt="tel" />
+                      <!-- </a> -->
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <!-- instagram icon DELL s-->
+                      <!-- <a href="./index.html" -->
+                      ><img
+                        src="./Images/ph_instagram-logo-lightwait.svg"
+                        alt="tel"
+                      />
+                      <!-- </a> -->
+                    </a>
+                  </li>
+                </div>
+
+                <div class="contact-box">
+                  <li>
+                    <a
+                      class="footer_address address-linc"
+                      href="#"
+                      target="_blank"
+                      >Політика конфіденційності</a
+                    >
+                  </li>
+                  <!-- <li><p></p></li> -->
+                  <li>
+                    <p class="address_copyright">&copy; 2022 Дані захищені</p>
+                  </li>
+                </div>
+              </ul>
+            </div>
           </address>
         </div>
       </div>
