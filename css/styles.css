@@ -87,7 +87,7 @@
   --color-primary-dark3: #747272;
 }
 
-/* Base */
+/*                                                    /* Base */
 * {
   box-sizing: border-box;
 }
@@ -120,7 +120,7 @@ ul {
   list-style-type: none;
 }
 
-/* Linc */
+/*                                                     /* Linc */
 .linc {
   color: var(--color-brand-dark);
   text-decoration: none;
@@ -129,7 +129,7 @@ ul {
   color: var(--color-brand-light);
 }
 
-/* Button */
+/*                                                     /* Button */
 .button {
   color: var(--color-primary-light);
   background-color: var(--color-brand-light);
@@ -165,7 +165,7 @@ ul {
   background-color: var(--color-primary-dark3);
 }
 
-/* Header */
+/*                                                     /* Header */
 .container {
   width: 100%;
   max-width: 1464px;
@@ -196,7 +196,19 @@ ul {
   /* flex-grow: 1; */
 }
 
-/* Hero section */
+/*                                                     /* Hero section */
+.background-images {
+  /* position: absolute; */
+  width: 1151.97px;
+  height: 686.93px;
+  left: 311.99px;
+  top: 0.4px;
+  background-image: url('../images/hero_title_fon.png');
+  /* background-repeat: no-repeat;
+  background-position: center top; */
+  background-size: cover;
+  /* transform: matrix(1, 0.06, 0.06, -1, 0, 0); */
+}
 .container-hero {
   width: 100%;
   max-width: 529px;
@@ -218,10 +230,16 @@ ul {
   color: var(--color-primary-dark2);
   font-size: 12px;
   line-height: 1.5;
+  margin-bottom: 127px;
 }
 
-/* Advantages section */
-/* about_beauty_zone */
+/*                                                     /* Advantages section */
+/*                                                     /* about_beauty_zone */
+.photo-reincarnation {
+  /* filter: drop-shadow(0px 4px 4px rgba(168, 198, 245, 0.2)); */
+  object-fit: cover;
+}
+
 .title-text-container {
   width: 100%;
   max-width: 709px;
@@ -291,7 +309,7 @@ ul {
   font-weight: bold;
 }
 
-/* why_us */
+/*                                                     /* why_us */
 .flexbox-why {
   display: flex;
   align-items: flex-start;
@@ -323,7 +341,7 @@ ul {
   gap: 8px;
 }
 
-/* our_procedures */
+/*                                                     /* our_procedures */
 .flexbox-procedures {
   display: flex;
   align-items: center;
@@ -347,7 +365,7 @@ ul {
   margin-bottom: 32px;
 }
 
-/* contacts_title */
+/*                                                     /* contacts_title */
 .button-and-agree {
   display: flex;
   flex-direction: column;
@@ -403,7 +421,7 @@ ul {
   width: 423px;
 }
 
-/* contacts_footer */
+/*                                                     /* contacts_footer */
 .flexcontact {
   display: flex;
   gap: 186px;
